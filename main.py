@@ -83,7 +83,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument(
         'filename', help='The file address of the .bmp file to be input')
-    parser.add_argument('-r', '--reconnect',
+    parser.add_argument('-r', '--reconnect', action='store_true',
                         help='If the switch has already been paired.')
     args = parser.parse_args()
 
