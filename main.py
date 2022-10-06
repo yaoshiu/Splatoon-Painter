@@ -31,7 +31,7 @@ async def main(args, loop):
 
     # Read the archieve file
     try:
-        with open('splatoon-painter.archieve', 'r') as f:
+        with open('.splatoon-painter.archieve', 'r') as f:
             start = list(map(int, f.read().split()))
         ans = await ainput(
             'A previous drawing record is detected, start from the previous position?(Y/n):')
@@ -58,7 +58,7 @@ async def main(args, loop):
             await loop.run_in_executor(executor, nx.press_buttons, controller_index, [nxbt.Buttons.DPAD_RIGHT])
 
             if user_input.done():
-                with open('splatoon-painter.archieve', 'w') as f:
+                with open('.splatoon-painter.archieve', 'w') as f:
                     f.write('%d %d' % (i, j))
                 break
 
