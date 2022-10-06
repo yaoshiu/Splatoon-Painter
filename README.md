@@ -1,8 +1,12 @@
-# Splatoon Painter - 电子刺绣师
+# SplatoonPainter - 电子刺绣师
+
+![image-20221006215738083](https://s2.loli.net/2022/10/06/YVWb4lqAmzvex5U.png)
 
 A script that simulates the Switch Pro controller on a Linux system to automatically paint pictures in Splatoon 3.
 
 一个在Linux系统上模拟Switch Pro控制器自动在斯普拉遁3涂鸦图片的脚本。
+
+[中文文档](https://github.com/yaoshiu/Splatoon-Painter/blob/master/README.zh-CN.md)
 
 ## Background
 
@@ -13,12 +17,14 @@ At first, I saw a program on Jump App that uses a microcontroller to burn automa
 Clone the repository locally with `git clone` and install it with `pip` on a Linux system
 
 ````
+git clone https://github.com/yaoshiu/Splatoon-Painter.git
+cd Splatoon-Painter
 sudo pip install .
 ````
 
 ## Usage
 
-Make sure to run with su privileges in a Linux environment
+Make sure to run with su privileges in a Linux environment  and that the image is a black and white .bmp bitmap
 
 ```
 usage: main.py [-h] [-r RECONNECT] filename
@@ -40,6 +46,8 @@ options:
                         If the switch has already been paired.
 ```
 
+After you have successfully connected and the first prompt pops up, open the Splatoon doodle page on your Nintendo Switch and minimize the brush and place it in the upper left corner.
+
 ## Example
 
 If you are pairing a Nintendo Switch for the first time, use the following command
@@ -60,4 +68,4 @@ Thanks to [Brikwerk/nxbt](https://github.com/Brikwerk/nxbt) for the controller A
 
 ## License
 
-MIT
+MIT © Phie Ash

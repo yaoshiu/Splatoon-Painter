@@ -1,4 +1,6 @@
-# Splatoon-Painter
+# SplatoonPainter - 电子刺绣师
+
+![image-20221006215738083](https://s2.loli.net/2022/10/06/YVWb4lqAmzvex5U.png)
 
 一个在Linux系统上模拟Switch Pro控制器自动在斯普拉遁3涂鸦图片的脚本。
 
@@ -11,12 +13,14 @@
 在Linux系统上通过`git clone`将本仓库克隆到本地后通过`pip`安装
 
 ````
+git clone https://github.com/yaoshiu/Splatoon-Painter.git
+cd Splatoon-Painter
 sudo pip install .
 ````
 
 ## 使用说明
 
-请确保在Linux环境下以su权限运行
+请确保在Linux环境下以su权限运行，且图像为黑白.bmp位图
 
 ```
 usage: main.py [-h] [-r RECONNECT] filename
@@ -38,6 +42,8 @@ options:
                         If the switch has already been paired.
 ```
 
+在成功连接并弹出第一次提示后请打开Nintendo Switch上的Splatoon涂鸦页面，并且将画笔调至最小然后至于左上角
+
 ## 示例
 
 如果你是第一次配对Nintendo Switch，请使用如下的指令
@@ -58,4 +64,4 @@ sudo main.py -r my_picture.bmp
 
 ## 使用许可
 
-MIT
+MIT © Phie Ash
