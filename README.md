@@ -2,6 +2,8 @@
 
 ![image-20221006215738083](https://s2.loli.net/2022/10/06/YVWb4lqAmzvex5U.png)
 
+![GitHub top language](https://img.shields.io/github/languages/top/yaoshiu/Splatoon-Painter)![GitHub repo size](https://img.shields.io/github/repo-size/yaoshiu/Splatoon-Painter?color=green)![GitHub](https://img.shields.io/github/license/yaoshiu/Splatoon-Painter)
+
 A script that simulates the Switch Pro controller on a Linux system to automatically paint pictures in Splatoon 3.
 
 一个在Linux系统上模拟Switch Pro控制器自动在斯普拉遁3涂鸦图片的脚本。
@@ -68,4 +70,4 @@ Thanks to [Brikwerk/nxbt](https://github.com/Brikwerk/nxbt) for the controller A
 
 ## License
 
-MIT © Phie Ash
+[MIT](https://github.com/yaoshiu/Splatoon-Painter/blob/master/LICENSE) © Phie Ash
