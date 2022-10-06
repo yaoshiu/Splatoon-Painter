@@ -44,6 +44,8 @@ options:
                         If the switch has already been paired.
 ```
 
+**注：如果你是第一次运行并配对，请事先打开Nintendo Switch上的“手柄 -> 更改握法/顺序“界面**
+
 在成功连接并弹出第一次提示后请打开Nintendo Switch上的Splatoon涂鸦页面，并且将画笔调至最小然后至于左上角
 
 ## 示例
@@ -66,4 +68,4 @@ sudo main.py -r my_picture.bmp
 
 ## 使用许可
 
-MIT © Phie Ash
+[MIT](https://github.com/yaoshiu/Splatoon-Painter/blob/master/LICENSE) © Phie Ash

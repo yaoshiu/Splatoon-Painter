@@ -48,6 +48,8 @@ options:
                         If the switch has already been paired.
 ```
 
+**Note: If you are running and pairing for the first time, please open the "Joystick -> Change Grip/Order" screen on Nintendo Switch beforehand**.
+
 After you have successfully connected and the first prompt pops up, open the Splatoon doodle page on your Nintendo Switch and minimize the brush and place it in the upper left corner.
 
 ## Example
