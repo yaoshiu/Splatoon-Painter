@@ -11,7 +11,7 @@ from aioconsole import aprint, ainput
 import functools
 
 
-async def main(args, loop):
+async def paint(args, loop):
     # Create a new thread pool
     executor = ThreadPoolExecutor()
 
@@ -90,7 +90,7 @@ def main():
     args = parser.parse_args()
 
     loop = asyncio.get_event_loop()
-    loop.run_until_complete(main(args, loop))
+    loop.run_until_complete(paint(args, loop))
     loop.close()
 
     
