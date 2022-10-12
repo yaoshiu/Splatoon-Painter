@@ -25,7 +25,7 @@ sudo pip install .
 请确保在Linux环境下以su权限运行，且图像为黑白.bmp位图
 
 ```
-usage: main.py [-h] [-r RECONNECT] filename
+usage: splatoon-painter [-h] [-r RECONNECT] filename
 
 
 
@@ -39,7 +39,7 @@ options:
 
   -h, --help            show this help message and exit
 
-  -r RECONNECT, --reconnect RECONNECT
+  -r , --reconnect 
 
                         If the switch has already been paired.
 ```
@@ -53,13 +53,13 @@ options:
 如果你是第一次配对Nintendo Switch，请使用如下的指令
 
 ```
-sudo main.py my_picture.bmp
+sudo splatoon-painter my_picture.bmp
 ```
 
 如果在先前已经运行过该程序并成功配对过Nintendo Switch，请使用如下指令
 
 ```
-sudo main.py -r my_picture.bmp
+sudo splatoon-painter -r my_picture.bmp
 ```
 
 ## 相关仓库

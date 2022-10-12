@@ -29,7 +29,7 @@ sudo pip install .
 Make sure to run with su privileges in a Linux environment  and that the image is a black and white .bmp bitmap
 
 ```
-usage: main.py [-h] [-r RECONNECT] filename
+usage: splatoon-painter [-h] [-r RECONNECT] filename
 
 
 
@@ -43,7 +43,7 @@ options:
 
   -h, --help show this help message and exit
 
-  -r RECONNECT, --reconnect RECONNECT
+  -r , --reconnect 
 
                         If the switch has already been paired.
 ```
@@ -57,13 +57,13 @@ After you have successfully connected and the first prompt pops up, open the Spl
 If you are pairing a Nintendo Switch for the first time, use the following command
 
 ```
-sudo main.py my_picture.bmp
+sudo splatoon-painter my_picture.bmp
 ```
 
 If you have previously run the program and successfully paired a Nintendo Switch, use the following command
 
 ```
-sudo main.py -r my_picture.bmp
+sudo splatoon-painter -r my_picture.bmp
 ```
 
 ## Related efforts
