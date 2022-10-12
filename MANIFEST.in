@@ -6,3 +6,4 @@ include nxbt/web/static/js/*.js
 include nxbt/web/static/css/*.css
 include nxbt/web/static/*.svg
 include nxbt/web/static/*.png
+include nxbt/*.py
