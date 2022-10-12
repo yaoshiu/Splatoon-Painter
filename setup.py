@@ -4,6 +4,7 @@ setup(
     name="splatoon-painter",
     author="Phie Ash",
     description="A script to automatically paint images on Splatoon3 through a Linux system emulating a Switch Pro controller.",
+    include_package_data=True,
     scripts=["splatoon-painter"],
     install_requires=[
         "opencv-python",
