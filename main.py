@@ -75,7 +75,7 @@ async def main(args, loop):
     await loop.run_in_executor(executor, nx.remove_controller, controller_index)
 
 
-if __name__ == '__main__':
+def main():
     # Check su permission
     if not os.geteuid() == 0:
         raise PermissionError('Script must be run as root!')
@@ -90,3 +90,7 @@ if __name__ == '__main__':
     loop = asyncio.get_event_loop()
     loop.run_until_complete(main(args, loop))
     loop.close()
+
+    
+if __name__ == "__main__":
+    main()
